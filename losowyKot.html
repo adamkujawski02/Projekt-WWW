@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <title>Losowy kotek</title>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.7/src/loadingoverlay.js"></script>
+    <script src="https://kit.fontawesome.com/35c29c6fb1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/losowyKot.css">
+</head>
+<body>
+    <div class="x" style="background-image:url('static/imgs/kotek.png');">
+    <div class="wrapper">
+        <div id="full-img">
+            <button onclick="toggleFullImage()">Zamknij</button>
+            <img id="full-image" src="" alt="">
+        </div>
+        <form id="catForm">
+            <label for="text">tekst: </label>
+            <input type="text" name="text"></input>
+
+            <label for="filter">filter: </label>
+            <select id="select-filter">
+                <option value="">none</option>
+                <option value="blur">blur</option>
+                <option value="mono">mono</option>
+                <option value="sepia">sepia</option>
+                <option value="negative">negative</option>
+                <option value="paint">paint</option>
+                <option value="pixel">pixel</option>
+            </select>
+
+            <label for="size">rozmiar: </label>
+            <input type="number" name="size" value="50"></input>
+
+            <label for="color">kolor tekstu: </label>
+            <select id="select-color">
+                <option value="blue">blue</option>
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+            </select>
+        </form>
+        
+        <div class="kotek-wrapper">
+            <div id="kicak"></div>
+            <div class="panel">
+                <div class="left"> 
+                    <button onclick="toggleSettings()"><i class="fa fa-gear"></i></button>
+                    <button onclick="toggleFullImage()" style="background-color: #ff7675"><i class="fa fa-maximize"></i></button>
+                    <a href="" id="download" download><i class="fa fa-download" aria-hidden="true"></i></a>
+                </div>
+                <input class="pulse" type="submit" form="catForm" value="Wygeneruj Losowe Zdjęcie Kota"/>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="static/randomkot.js">
+
+
+</script>
+</html>

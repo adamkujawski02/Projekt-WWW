@@ -1,0 +1,52 @@
+body{
+    background-color: #222f3e;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: white;
+}
+
+.wrapper{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+ }
+ .pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+
+.pulse {
+  --color: #3150a5;
+  --hover: #002366;
+  background-color : #c29f2b;
+}
+
+a {
+  color: var(--color);
+  transition: 0.25s;
+}
+a:hover, a:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+a:hover,input,button{
+cursor: pointer ;
+
+}
+
+

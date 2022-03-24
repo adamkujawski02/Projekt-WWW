@@ -1,0 +1,92 @@
+
+
+ul{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    background-color : pink;
+}
+h2{
+   
+    margin-bottom: -5px;
+    border-radius: 5px;
+    padding: 20px 30px;
+    display: block;
+    max-width: 300px;
+
+}
+
+h2 a{
+    display: block;
+    height:100%;
+
+}
+.offset {
+    box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+  }
+  .offset:hover, .offset:focus {
+    box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+  }
+
+
+p{
+    max-width: 300px;
+    border-radius: 2px;
+    padding: 10px 15px;
+    background-color : #3d60d4;
+    color: #ffffff;
+    
+    
+   
+}
+
+li{
+    text-align: center;
+    background-color: #1964af;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+    width: 450px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+body {
+  color: #fff;
+  font: 300 1em "Fira Sans", sans-serif;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  background-image:url("static/imgs/tlolepsze.jpg");
+}
+
+a {
+  background: none;
+
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+code {
+  color: #e4cb58;
+  font: inherit;
+}

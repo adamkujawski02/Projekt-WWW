@@ -1,0 +1,30 @@
+
+div{
+    margin: 0;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    
+}
+a:hover{
+
+color:rgb(26, 197, 228);
+transition:0.7s ;
+
+}
+
+.wrapper{
+    width: 100%;
+}
